@@ -43,9 +43,9 @@ Ini adalah online markdown editor yang dapat mempermudah anda dalam men-sunting 
 - Aplikasi ini langsung bisa mengganti dan menambahkan text html secara real-time
 - tema text editor ini dapat diganti 'theme' agar tidak membosankan
 - bisa membuat tabel dengan 2 cara, 
-  menggunakan html :
+  menggunakan html menjadi :
   
- //<table>
+  <table>
    <tr>
     <th>ID</th><th>Name</th><th>Rank</th>
  </tr>
@@ -55,7 +55,7 @@ Ini adalah online markdown editor yang dapat mempermudah anda dalam men-sunting 
    <tr>
    <td>2</td><td>Albert Einstein</td><td>Nearly as awesome</td>
   </tr>
-  </table>//
+  </table>
   
    atau manual berbentuk :
   
