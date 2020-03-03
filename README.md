@@ -33,4 +33,37 @@ Ini adalah online markdown editor yang dapat mempermudah anda dalam men-sunting 
     $ sudo rm -rf /var/www/html/markdown-edit
     ```
 6. Setelah semuanya dilakukan, akses http://localhost:8000 untuk melihat hasilnya.
+
+
+
+# Pembahasan
+
+**Markdown Edit** Merupakan Editor text berbasis 'github-flavored-markdown' yang bisa dikonversi menjadi 'HTML' yang didasari oleh 'javascript' dan diperkuat oleh 'CodeMirror', Aplikasi ini mmemberikan kemudahan untuk penggunanya dalam hal :
+- Aplikasi ini bisa mengedit atau menambahkan text dan di konversi menjadi html
+- Aplikasi ini langsung bisa mengganti dan menambahkan text html secara real-time
+- tema text editor ini dapat diganti 'theme' agar tidak membosankan
+- bisa membuat tabel dengan 2 cara, 
+  menggunakan html :
+  
+  <table>
+  <tr>
+    <th>ID</th><th>Name</th><th>Rank</th>
+  </tr>
+  <tr>
+    <td>1</td><td>Tom Preston-Werner</td><td>Awesome</td>
+  </tr>
+  <tr>
+    <td>2</td><td>Albert Einstein</td><td>Nearly as awesome</td>
+  </tr>
+    </table>
+   
+   atau manual berbentuk :
     
+    ID  |Name|Rank
+    --- |----|----
+    1   |Tom Preston-Werner |Awesome
+    2   |Albert Einstein |Nearly as awesome
+ 
+Tetapi Apllikasi **MarkDown Edit** juga mempunyai kekurangan, yaitu : 
+- hanya bisa digunakan ditempat tertentu (seperti github dll)
+- Sedikit rumit untuk editor yang belum terbiasa
