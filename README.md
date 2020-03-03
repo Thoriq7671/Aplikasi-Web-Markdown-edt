@@ -45,7 +45,7 @@ Ini adalah online markdown editor yang dapat mempermudah anda dalam men-sunting 
 - bisa membuat tabel dengan 2 cara, 
   menggunakan html :
   
-  ``` <table>
+ //<table>
    <tr>
     <th>ID</th><th>Name</th><th>Rank</th>
  </tr>
@@ -55,15 +55,15 @@ Ini adalah online markdown editor yang dapat mempermudah anda dalam men-sunting 
    <tr>
    <td>2</td><td>Albert Einstein</td><td>Nearly as awesome</td>
   </tr>
-  </table>
-  ```
+  </table>//
+  
    atau manual berbentuk :
-   ```
+  
     ID  |Name|Rank
     --- |----|----
     1   |Tom Preston-Werner |Awesome
     2   |Albert Einstein |Nearly as awesome
-   ```
+   
 Tetapi Apllikasi **MarkDown Edit** juga mempunyai kekurangan, yaitu : 
 - hanya bisa digunakan ditempat tertentu (seperti github dll)
 - Sedikit rumit untuk editor yang belum terbiasa
